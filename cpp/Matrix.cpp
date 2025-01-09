@@ -15,7 +15,7 @@ Matrix::Matrix(int const size) : size(size), matrix(size, std::vector<int>(size)
 
 void Matrix::transposeSingleThreaded() {
     for (size_t row = 0; row < size; ++row) {
-        for (size_t col = row + 1; col < size; ++col) {
+        for (size_t col = row + 1; col < size; ++col) { // only upper triangular part
             std::swap(matrix[row][col], matrix[col][row]);
         }
     }
