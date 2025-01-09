@@ -1,0 +1,25 @@
+# Ignore everything in .idea
+.idea/
+
+# Exclude build directories
+cmake-build-debug/
+cmake-build-release/
+
+# Exclude virtual environment
+venv/
+
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Other temporary files
+*.swp
+*.bak
+*.~lock.*
