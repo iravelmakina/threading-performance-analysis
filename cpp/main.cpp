@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <fstream>
+#include <filesystem>
 #include <numeric>
 #include <vector>
 
@@ -16,6 +17,10 @@ const std::vector threadCounts = {
 
 
 int main() {
+    if (!std::filesystem::exists("./data")) {
+        std::filesystem::create_directory("./data");
+    }
+
     std::ofstream csvFile("./data/threadPerformance.csv");
     csvFile << "MatrixSize,Threads,AvgTime\n";
 
