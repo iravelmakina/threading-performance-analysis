@@ -1,0 +1,28 @@
+# Treat C++ source and header files as text
+*.cpp text
+*.h text
+
+# Treat Python files as text
+*.py text
+
+# Treat CSV files as text
+*.csv text
+
+# Handle line endings for cross-platform compatibility
+*.cpp eol=lf
+*.h eol=lf
+*.py eol=lf
+*.csv eol=lf
+
+# Ignore binary files
+*.png binary
+
+# Mark CMake files as text
+CMakeLists.txt text
+*.cmake text
+
+# Handle JSON files as text
+*.json text
+
+# Treat Markdown files as text
+*.md text
