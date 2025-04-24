@@ -124,8 +124,12 @@ The graph shows:
 
 ---
 
-## **Contributors**
-- @iravelmakina
+## License
 
-## **License**
-This project is open-source under the **MIT License**.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributor
+
+- [@iravelmakina](https://github.com/iravelmakina)
